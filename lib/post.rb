@@ -12,7 +12,7 @@ class Post
   end
   
   def sefl.title
-    self.title
+    title
   end
     
   
