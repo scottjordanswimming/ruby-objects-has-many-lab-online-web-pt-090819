@@ -14,7 +14,7 @@ class Post
   def self.title
     title
   end
-    
+    binding.pry
   
   def save
     @@all << self
@@ -30,5 +30,5 @@ class Post
     end
   end 
   
-  #binding.pry
+  
 end
